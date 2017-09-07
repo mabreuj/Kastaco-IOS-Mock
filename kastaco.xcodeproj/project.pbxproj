@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79BC1B01F60DCAB00B519A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */; };
+		B79BC1B21F60DCAB00B519A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1B11F60DCAB00B519A6 /* ViewController.swift */; };
+		B79BC1B51F60DCAB00B519A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79BC1B31F60DCAB00B519A6 /* Main.storyboard */; };
+		B79BC1B71F60DCAB00B519A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79BC1B61F60DCAB00B519A6 /* Assets.xcassets */; };
+		B79BC1BA1F60DCAB00B519A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79BC1B81F60DCAB00B519A6 /* LaunchScreen.storyboard */; };
+		B79BC1C51F60DCAB00B519A6 /* kastacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1C41F60DCAB00B519A6 /* kastacoTests.swift */; };
+		B79BC1D01F60DCAB00B519A6 /* kastacoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1CF1F60DCAB00B519A6 /* kastacoUITests.swift */; };
+		B79BC1DE1F60DFA700B519A6 /* UIView+UIProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1DD1F60DFA700B519A6 /* UIView+UIProperties.swift */; };
+		B79BC1E01F60E1AB00B519A6 /* UITableViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1DF1F60E1AB00B519A6 /* UITableViewMock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79BC1C11F60DCAB00B519A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79BC1A41F60DCAB00B519A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79BC1AB1F60DCAB00B519A6;
+			remoteInfo = kastaco;
+		};
+		B79BC1CC1F60DCAB00B519A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79BC1A41F60DCAB00B519A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79BC1AB1F60DCAB00B519A6;
+			remoteInfo = kastaco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B79BC1AC1F60DCAB00B519A6 /* kastaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kastaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B79BC1B11F60DCAB00B519A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79BC1B41F60DCAB00B519A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79BC1B61F60DCAB00B519A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B79BC1B91F60DCAB00B519A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79BC1BB1F60DCAB00B519A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79BC1C01F60DCAB00B519A6 /* kastacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kastacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BC1C41F60DCAB00B519A6 /* kastacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kastacoTests.swift; sourceTree = "<group>"; };
+		B79BC1C61F60DCAB00B519A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79BC1CB1F60DCAB00B519A6 /* kastacoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kastacoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BC1CF1F60DCAB00B519A6 /* kastacoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kastacoUITests.swift; sourceTree = "<group>"; };
+		B79BC1D11F60DCAB00B519A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79BC1DD1F60DFA700B519A6 /* UIView+UIProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIProperties.swift"; sourceTree = "<group>"; };
+		B79BC1DF1F60E1AB00B519A6 /* UITableViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79BC1A91F60DCAB00B519A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1BD1F60DCAB00B519A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1C81F60DCAB00B519A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79BC1A31F60DCAB00B519A6 = {
+			isa = PBXGroup;
+			children = (
+				B79BC1AE1F60DCAB00B519A6 /* kastaco */,
+				B79BC1C31F60DCAB00B519A6 /* kastacoTests */,
+				B79BC1CE1F60DCAB00B519A6 /* kastacoUITests */,
+				B79BC1AD1F60DCAB00B519A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79BC1AD1F60DCAB00B519A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79BC1AC1F60DCAB00B519A6 /* kastaco.app */,
+				B79BC1C01F60DCAB00B519A6 /* kastacoTests.xctest */,
+				B79BC1CB1F60DCAB00B519A6 /* kastacoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79BC1AE1F60DCAB00B519A6 /* kastaco */ = {
+			isa = PBXGroup;
+			children = (
+				B79BC1DF1F60E1AB00B519A6 /* UITableViewMock.swift */,
+				B79BC1DD1F60DFA700B519A6 /* UIView+UIProperties.swift */,
+				B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */,
+				B79BC1B11F60DCAB00B519A6 /* ViewController.swift */,
+				B79BC1B31F60DCAB00B519A6 /* Main.storyboard */,
+				B79BC1B61F60DCAB00B519A6 /* Assets.xcassets */,
+				B79BC1B81F60DCAB00B519A6 /* LaunchScreen.storyboard */,
+				B79BC1BB1F60DCAB00B519A6 /* Info.plist */,
+			);
+			path = kastaco;
+			sourceTree = "<group>";
+		};
+		B79BC1C31F60DCAB00B519A6 /* kastacoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79BC1C41F60DCAB00B519A6 /* kastacoTests.swift */,
+				B79BC1C61F60DCAB00B519A6 /* Info.plist */,
+			);
+			path = kastacoTests;
+			sourceTree = "<group>";
+		};
+		B79BC1CE1F60DCAB00B519A6 /* kastacoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B79BC1CF1F60DCAB00B519A6 /* kastacoUITests.swift */,
+				B79BC1D11F60DCAB00B519A6 /* Info.plist */,
+			);
+			path = kastacoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79BC1AB1F60DCAB00B519A6 /* kastaco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BC1D41F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastaco" */;
+			buildPhases = (
+				B79BC1A81F60DCAB00B519A6 /* Sources */,
+				B79BC1A91F60DCAB00B519A6 /* Frameworks */,
+				B79BC1AA1F60DCAB00B519A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kastaco;
+			productName = kastaco;
+			productReference = B79BC1AC1F60DCAB00B519A6 /* kastaco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79BC1BF1F60DCAB00B519A6 /* kastacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BC1D71F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoTests" */;
+			buildPhases = (
+				B79BC1BC1F60DCAB00B519A6 /* Sources */,
+				B79BC1BD1F60DCAB00B519A6 /* Frameworks */,
+				B79BC1BE1F60DCAB00B519A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79BC1C21F60DCAB00B519A6 /* PBXTargetDependency */,
+			);
+			name = kastacoTests;
+			productName = kastacoTests;
+			productReference = B79BC1C01F60DCAB00B519A6 /* kastacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B79BC1CA1F60DCAB00B519A6 /* kastacoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79BC1DA1F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoUITests" */;
+			buildPhases = (
+				B79BC1C71F60DCAB00B519A6 /* Sources */,
+				B79BC1C81F60DCAB00B519A6 /* Frameworks */,
+				B79BC1C91F60DCAB00B519A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79BC1CD1F60DCAB00B519A6 /* PBXTargetDependency */,
+			);
+			name = kastacoUITests;
+			productName = kastacoUITests;
+			productReference = B79BC1CB1F60DCAB00B519A6 /* kastacoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79BC1A41F60DCAB00B519A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Miguel Abreu";
+				TargetAttributes = {
+					B79BC1AB1F60DCAB00B519A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B79BC1BF1F60DCAB00B519A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B79BC1AB1F60DCAB00B519A6;
+					};
+					B79BC1CA1F60DCAB00B519A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B79BC1AB1F60DCAB00B519A6;
+					};
+				};
+			};
+			buildConfigurationList = B79BC1A71F60DCAB00B519A6 /* Build configuration list for PBXProject "kastaco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79BC1A31F60DCAB00B519A6;
+			productRefGroup = B79BC1AD1F60DCAB00B519A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79BC1AB1F60DCAB00B519A6 /* kastaco */,
+				B79BC1BF1F60DCAB00B519A6 /* kastacoTests */,
+				B79BC1CA1F60DCAB00B519A6 /* kastacoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79BC1AA1F60DCAB00B519A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BC1BA1F60DCAB00B519A6 /* LaunchScreen.storyboard in Resources */,
+				B79BC1B71F60DCAB00B519A6 /* Assets.xcassets in Resources */,
+				B79BC1B51F60DCAB00B519A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1BE1F60DCAB00B519A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1C91F60DCAB00B519A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79BC1A81F60DCAB00B519A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BC1DE1F60DFA700B519A6 /* UIView+UIProperties.swift in Sources */,
+				B79BC1B21F60DCAB00B519A6 /* ViewController.swift in Sources */,
+				B79BC1B01F60DCAB00B519A6 /* AppDelegate.swift in Sources */,
+				B79BC1E01F60E1AB00B519A6 /* UITableViewMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1BC1F60DCAB00B519A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BC1C51F60DCAB00B519A6 /* kastacoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79BC1C71F60DCAB00B519A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79BC1D01F60DCAB00B519A6 /* kastacoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79BC1C21F60DCAB00B519A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79BC1AB1F60DCAB00B519A6 /* kastaco */;
+			targetProxy = B79BC1C11F60DCAB00B519A6 /* PBXContainerItemProxy */;
+		};
+		B79BC1CD1F60DCAB00B519A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79BC1AB1F60DCAB00B519A6 /* kastaco */;
+			targetProxy = B79BC1CC1F60DCAB00B519A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79BC1B31F60DCAB00B519A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BC1B41F60DCAB00B519A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79BC1B81F60DCAB00B519A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79BC1B91F60DCAB00B519A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79BC1D21F60DCAB00B519A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B79BC1D31F60DCAB00B519A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79BC1D51F60DCAB00B519A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kastaco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B79BC1D61F60DCAB00B519A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kastaco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B79BC1D81F60DCAB00B519A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kastacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kastaco.app/kastaco";
+			};
+			name = Debug;
+		};
+		B79BC1D91F60DCAB00B519A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kastacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kastaco.app/kastaco";
+			};
+			name = Release;
+		};
+		B79BC1DB1F60DCAB00B519A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kastacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kastaco;
+			};
+			name = Debug;
+		};
+		B79BC1DC1F60DCAB00B519A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kastacoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kastaco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79BC1A71F60DCAB00B519A6 /* Build configuration list for PBXProject "kastaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BC1D21F60DCAB00B519A6 /* Debug */,
+				B79BC1D31F60DCAB00B519A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79BC1D41F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BC1D51F60DCAB00B519A6 /* Debug */,
+				B79BC1D61F60DCAB00B519A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B79BC1D71F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BC1D81F60DCAB00B519A6 /* Debug */,
+				B79BC1D91F60DCAB00B519A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B79BC1DA1F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79BC1DB1F60DCAB00B519A6 /* Debug */,
+				B79BC1DC1F60DCAB00B519A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79BC1A41F60DCAB00B519A6 /* Project object */;
+}
