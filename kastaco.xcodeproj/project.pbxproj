@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75008621F78BC1800BB28A2 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75008611F78BC1800BB28A2 /* JobViewController.swift */; };
 		B79BC1B01F60DCAB00B519A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */; };
 		B79BC1B21F60DCAB00B519A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BC1B11F60DCAB00B519A6 /* ViewController.swift */; };
 		B79BC1B51F60DCAB00B519A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79BC1B31F60DCAB00B519A6 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B75008611F78BC1800BB28A2 /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
 		B79BC1AC1F60DCAB00B519A6 /* kastaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kastaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B79BC1B11F60DCAB00B519A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		B79BC1AE1F60DCAB00B519A6 /* kastaco */ = {
 			isa = PBXGroup;
 			children = (
+				B75008611F78BC1800BB28A2 /* JobViewController.swift */,
 				B79BC1DF1F60E1AB00B519A6 /* UITableViewMock.swift */,
 				B79BC1DD1F60DFA700B519A6 /* UIView+UIProperties.swift */,
 				B79BC1AF1F60DCAB00B519A6 /* AppDelegate.swift */,
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					B79BC1AB1F60DCAB00B519A6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HKH8NMM3WP;
 						ProvisioningStyle = Automatic;
 					};
 					B79BC1BF1F60DCAB00B519A6 = {
@@ -268,6 +272,7 @@
 				B79BC1DE1F60DFA700B519A6 /* UIView+UIProperties.swift in Sources */,
 				B79BC1B21F60DCAB00B519A6 /* ViewController.swift in Sources */,
 				B79BC1B01F60DCAB00B519A6 /* AppDelegate.swift in Sources */,
+				B75008621F78BC1800BB28A2 /* JobViewController.swift in Sources */,
 				B79BC1E01F60E1AB00B519A6 /* UITableViewMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKH8NMM3WP;
 				INFOPLIST_FILE = kastaco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastaco;
@@ -434,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKH8NMM3WP;
 				INFOPLIST_FILE = kastaco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kastaco.kastaco;
@@ -515,6 +522,7 @@
 				B79BC1D61F60DCAB00B519A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B79BC1D71F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				B79BC1D91F60DCAB00B519A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B79BC1DA1F60DCAB00B519A6 /* Build configuration list for PBXNativeTarget "kastacoUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +540,7 @@
 				B79BC1DC1F60DCAB00B519A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
